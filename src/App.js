@@ -20,7 +20,7 @@ function App() {
 
      <Router>
       <Routes>
-        <Route path="/" element={<Home/>} />
+        <Route path="/Terribly_Tiny_Tales_Assignment" element={<Home/>} />
         <Route path="/display" element={<Display/>} />
       </Routes>
      </Router>

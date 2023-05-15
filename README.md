@@ -1,5 +1,8 @@
 # Terribly Tiny Tales Assignment
 
+## Hosted Live Link of the assignment
+Link : https://rishi01prince.github.io/Terribly_Tiny_Tales_Assignment/
+
 This repository contains the code for the Terribly Tiny Tales assignment. The assignment starts with `App.js`, where the routes for two components are defined. The first route is for the home page with a component named "Home". The second route is for displaying the histogram, which is "/display", with a component named "Display".
 
 ## Working of Home Component
@@ -34,3 +37,5 @@ In Home.js:
 
 - `react`: The React library.
 - `react-router-dom`: The React Router DOM library for routing.
+
+

@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-image: url(https://img.freepik.com/free-photo/red-yellow-watercolor_95678-448.jpg?size=626&ext=jpg&uid=R102964281&ga=GA1.2.811525072.1684171895&semt=ais);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

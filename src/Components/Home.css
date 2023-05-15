@@ -1,0 +1,88 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+
+
+/* Add beauti ful css to a div with a circular shape having a div name buttona*/
+
+
+button {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 80px;
+    cursor: pointer;
+    /* border-radius: 80%; */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    background-color: #00ff15;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:focus {
+    outline: none;
+}
+
+
+/* css for background */
+/* CSS of button div */
+.buttona {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #eaf6ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333333;
+    font-family: cursive;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    
+}
+
+.buttona:hover {
+    background-color: #d0e9ff;
+}
+
+
+
+/* css for paragraph */
+.div_para {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .para {
+    text-align: center;
+    font-size: 16px;
+    color: #333333;
+    font-family: Apple Chancery, cursive;
+    padding: 20px;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    color :#ff0000
+
+  }
+  

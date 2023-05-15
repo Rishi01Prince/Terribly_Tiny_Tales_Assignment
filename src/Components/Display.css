@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #ef0a0a;
+    
+  }
+  
+  /* increase the size of the chart container */
+  .chart-container {
+    width: 100%;
+    max-width: 800px;
+    height: 500px;
+    max-height: 500px;
+    size: 500px;
+    margin-top: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+  
+  .tite {
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    width : 400px;
+  }
+  
+  /* Styling for the chart title */
+  .chart-title {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family : Brush Script MT, Brush Script Std, cursive;
+  }
+  .chart {
+    width: 100%;
+  }
+  
+
+  /* beatiful css for background a little dark and a little light */
+  .background:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+    opacity: 0.3;
+  }
+  
